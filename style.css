@@ -8,9 +8,9 @@ body{margin:0;background:radial-gradient(420px 200px at 50% 10%, rgba(255,214,10
 .info-banner h1{margin:6px 0;font-size:16px;color:#ffd66b}
 .info-banner p{margin:4px 0;font-size:12px;opacity:0.9}
 .info-banner .deadline{font-weight:bold;color:#fff1a8}
-.qr-container{margin-top:10px;display:flex;flex-direction:column;align-items:center}
-.qr-container p{margin:0;color:#fff}
-#qr-code{margin-top:6px;padding:6px;background:#fff;border-radius:4px}
+.share-link{margin-top:10px;display:flex;flex-direction:column;align-items:center}
+.share-link p{margin:0;color:#fff}
+.share-link a{margin-top:4px;padding:6px 10px;background:rgba(255,255,255,0.1);border-radius:4px;font-size:11px}
 .controls{display:flex;gap:8px;align-items:center;margin-bottom:18px;flex-wrap:wrap}
 .controls label{flex:1;min-width:100%;display:flex;flex-direction:column;color:#fff;font-size:12px}
 .controls textarea{flex:1;padding:10px;border:1px solid rgba(255,255,255,0.2);border-radius:6px;background:rgba(255,255,255,0.05);color:#fff;font-family:inherit;font-size:13px;resize:vertical;min-height:60px}
