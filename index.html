@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="bg">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Лампа с писмо</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="stage">
+    <section class="info-banner">
+      <h1>Конкурс: Напиши писмо до приятел</h1>
+      <p>Обясни защо човешката връзка е важна в дигиталния свят</p>
+      <p class="deadline">📅 Крайния срок: <strong>5 май 2026</strong></p>
+    </section>
+    <section class="controls">
+      <label>Твоето писмо:
+        <textarea id="message" placeholder="Напиши своето писмо тук..."></textarea>
+      </label>
+      <button id="mode-toggle">🌙 Ден</button>
+      <button id="lamp-toggle">💡 Включи лампата</button>
+      <button id="switch">📬 Пусни писмо</button>
+    </section>
+
+    <section class="lamp-area">
+      <div class="room-decor">
+        <!-- kid-friendly SVGs: balloon and star -->
+        <svg class="icon balloon" viewBox="0 0 32 48" aria-hidden="true">
+          <ellipse cx="16" cy="14" rx="12" ry="10" fill="#ffd66b" />
+          <path d="M16 24 C16 28,14 32,16 36" stroke="#ffd66b" stroke-width="2" fill="none" />
+        </svg>
+        <svg class="icon star" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2 L14.5 9 L22 9 L16 13.5 L18.5 21 L12 16.5 L5.5 21 L8 13.5 L2 9 L9.5 9 Z" fill="#fff1a8" />
+        </svg>
+      </div>
+      <div class="lamp">
+        <div class="shade"></div>
+        <div class="bulb"></div>
+        <div class="hook"></div>
+      </div>
+      <div id="drop-zone" class="drop-zone"></div>
+      <div class="rug"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
